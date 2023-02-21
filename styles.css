@@ -10,14 +10,17 @@
     }
 }
 
-#navbar{
+.nav{
+    display: flex;
+    justify-content: flex-end;
     position: fixed;
     top: 0px;
     left: 0px;
-    
+    width: 100%;
+    background-color: #f5f5;    
+    z-index: 10;
 
 }
-
 #projects{
     display: inline-block;
     text-align: center;
