@@ -9,3 +9,10 @@
         font-size:55%;
     }
 }
+
+#navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
