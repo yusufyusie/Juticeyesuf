@@ -21,7 +21,8 @@
     z-index: 10;
 
 }
-#projects{
+
+.project-tile{
     display: inline-block;
     text-align: center;
 }
