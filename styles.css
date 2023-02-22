@@ -1,34 +1,111 @@
-
-.welcome-section{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-    background-color: #51e2f5;
-}
-
-
-@media(max-width:460px)
-{
-    html, body{
-        font-size:55%;
+@media (max-width: 600px) {
+    html {
+      font-size: 50%;
     }
-}
-
-.nav{
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    background-color: #f5f5;    
-    z-index: 10;
-
-}
-
-.project-tile{
-    display: inline-block;
-    text-align: center;
-}
+  }
+   @media (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  } 
+    html {
+      color: #f0f0f0;
+      box-sizing: border-box;
+      font-size: 10px;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-size: 4rem; 
+      font-weight: 400;
+      line-height: 2;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .nav {
+      display: flex;
+      justify-content: flex-end;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #51E2F5;
+    }
+    
+    .nav-list {
+      display: flex;
+      margin-right: 22px;
+    }
+    .nav-list a {
+      display: block;
+      font-size: 22px;
+      padding: 20px;
+    }
+    
+    .nav-list a:hover {
+      background-color:#FFABB6;
+      ;
+    }
+  
+    h1{
+      font-weight: 500;
+      font-size: 6rem;
+      text-align: center;
+    }  
+    ul {
+      list-style: none;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #f0f0f0;
+    }
+  
+    /* well-come Section */
+    .welcome-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-color: #000;
+    }
+    
+  
+  /* project-section */
+    .projects-section  {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-color: #FFABB6;
+    }
+    /* for contact */
+    .contact-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+      padding: 0 2rem;
+      background-color: #303841;
+    }
+    
+  
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      max-width: 980px;
+      margin-top: 4rem;
+      flex-wrap: wrap;
+    }
+   
+   
