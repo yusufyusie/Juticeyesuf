@@ -2,11 +2,6 @@
     html {
       font-size: 50%;
     }
-  }
-   @media (max-width: 700px) {
-    .row, .nav {   
-      flex-direction: column;
-    }
   } 
     html {
       color: #f0f0f0;
@@ -97,8 +92,6 @@
       padding: 0 2rem;
       background-color: #303841;
     }
-    
-  
     .contact-links {
       display: flex;
       justify-content: center;
