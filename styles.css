@@ -33,7 +33,7 @@
     }
     .nav-list a {
       display: block;
-      font-size: 22px;
+      font-size: 20px;
       padding: 20px;
     }
     
@@ -43,8 +43,8 @@
     }
   
     h1{
-      font-weight: 500;
-      font-size: 6rem;
+      font-weight: 450;
+      font-size: 5rem;
       text-align: center;
     }  
     ul {
